@@ -22,6 +22,7 @@
 	-->
 	
 	<!-- for H2 -->
+	<!--
 	<component name="xaDataSource"
 		class="org.seasar.extension.dbcp.impl.XADataSourceImpl">
 		<property name="driverClassName">
@@ -36,6 +37,7 @@
 			@org.seasar.framework.util.DriverManagerUtil@deregisterAllDrivers()
 		</destroyMethod>
 	</component>
+	-->
 	
 	<!-- for Oracle -->
 	<!--
@@ -72,19 +74,19 @@
 	-->
 	
 	<!-- for PostgreSQL -->
-	<!--
+	
 	<component name="xaDataSource"
 		class="org.seasar.extension.dbcp.impl.XADataSourceImpl">
 		<property name="driverClassName">
 			"org.postgresql.Driver"
         </property>
         <property name="URL">
-          "jdbc:postgresql://localhost/TEST"
+          "jdbc:postgresql://localhost:5432/file_archiver"
         </property>
-        <property name="user">"xxxx"</property>
-        <property name="password">"xxxx"</property>
+        <property name="user">"postgres"</property>
+        <property name="password">"594776"</property>
     </component>
-    -->
+   
 
 	<!-- MySQL
 	- MySQL4.0以下でマルチバイト文字を扱う場合には，URL指定の後に，
