@@ -1,0 +1,8 @@
+DaoType=S2JDBC
+DefaultResourcePath=/FileManager/src/main/resources
+DefaultRootPackage=storage
+DefaultSrcPath=/FileManager/src/main/java
+ServletPath=/FileManager
+ViewType=SA-Struts
+WebContentsRoot=src/main/webapp/
+eclipse.preferences.version=1
